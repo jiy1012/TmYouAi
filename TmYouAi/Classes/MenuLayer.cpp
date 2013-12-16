@@ -64,6 +64,7 @@ void MenuLayer::onMenusControl1Click(cocos2d::CCObject *pSender)
 void MenuLayer::onMenusControl2Click(cocos2d::CCObject *pSender)
 {
     CCLOG("MenuLayer::onMenusControl2Click %s"," ");
+    CCDirector::sharedDirector()->popScene();
 }
 
 void MenuLayer::onMenusControl3Click(cocos2d::CCObject *pSender)

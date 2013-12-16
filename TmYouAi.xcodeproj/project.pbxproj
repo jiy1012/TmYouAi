@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D662FEB7185AAD76003105E3 /* HeaderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */; };
-		D662FEBA185AB0E2003105E3 /* MenuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */; };
 		D662FEBD185AB62D003105E3 /* Header.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D662FEBB185AB62D003105E3 /* Header.ccbi */; };
 		D662FEBE185AB62D003105E3 /* Menus.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D662FEBC185AB62D003105E3 /* Menus.ccbi */; };
 		D68BF74E184F2ED900C8755A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68BF74D184F2ED900C8755A /* QuartzCore.framework */; };
@@ -24,7 +22,6 @@
 		D68BF764184F2ED900C8755A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF763184F2ED900C8755A /* Default.png */; };
 		D68BF766184F2ED900C8755A /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF765184F2ED900C8755A /* HelloWorld.png */; };
 		D68BF770184F2ED900C8755A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF76F184F2ED900C8755A /* Icon.png */; };
-		D68BF772184F2ED900C8755A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF771184F2ED900C8755A /* Icon@2x.png */; };
 		D68BF774184F2ED900C8755A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D68BF773184F2ED900C8755A /* iTunesArtwork */; };
 		D68BF779184F2ED900C8755A /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D68BF778184F2ED900C8755A /* AppController.mm */; };
 		D68BF77C184F2ED900C8755A /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D68BF77B184F2ED900C8755A /* RootViewController.mm */; };
@@ -284,13 +281,11 @@
 		D68BFB00184F2FA700C8755A /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D68BFAFC184F2FA700C8755A /* MainScene.ccbi */; };
 		D68BFB01184F2FA700C8755A /* START.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BFAFD184F2FA700C8755A /* START.png */; };
 		D68BFB04184F2FBA00C8755A /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BFB02184F2FBA00C8755A /* MainMenu.cpp */; };
+		D6BC46CF185EDBF400C97FB6 /* HeaderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46CB185EDBF400C97FB6 /* HeaderLayer.cpp */; };
+		D6BC46D0185EDBF400C97FB6 /* MenuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46CD185EDBF400C97FB6 /* MenuLayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeaderLayer.cpp; sourceTree = "<group>"; };
-		D662FEB6185AAD76003105E3 /* HeaderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderLayer.h; sourceTree = "<group>"; };
-		D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuLayer.cpp; sourceTree = "<group>"; };
-		D662FEB9185AB0E2003105E3 /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
 		D662FEBB185AB62D003105E3 /* Header.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Header.ccbi; path = Resources/Header.ccbi; sourceTree = "<group>"; };
 		D662FEBC185AB62D003105E3 /* Menus.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Menus.ccbi; path = Resources/Menus.ccbi; sourceTree = "<group>"; };
 		D68BF74A184F2ED900C8755A /* TmYouAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TmYouAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -307,7 +302,6 @@
 		D68BF763184F2ED900C8755A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		D68BF765184F2ED900C8755A /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HelloWorld.png; path = Resources/HelloWorld.png; sourceTree = "<group>"; };
 		D68BF76F184F2ED900C8755A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
-		D68BF771184F2ED900C8755A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		D68BF773184F2ED900C8755A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
 		D68BF775184F2ED900C8755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
 		D68BF777184F2ED900C8755A /* AppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = "<group>"; };
@@ -883,6 +877,10 @@
 		D68BFAFD184F2FA700C8755A /* START.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = START.png; path = Resources/START.png; sourceTree = "<group>"; };
 		D68BFB02184F2FBA00C8755A /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenu.cpp; path = Classes/MainMenu.cpp; sourceTree = "<group>"; };
 		D68BFB03184F2FBA00C8755A /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenu.h; path = Classes/MainMenu.h; sourceTree = "<group>"; };
+		D6BC46CB185EDBF400C97FB6 /* HeaderLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeaderLayer.cpp; path = Classes/HeaderLayer.cpp; sourceTree = "<group>"; };
+		D6BC46CC185EDBF400C97FB6 /* HeaderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderLayer.h; path = Classes/HeaderLayer.h; sourceTree = "<group>"; };
+		D6BC46CD185EDBF400C97FB6 /* MenuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuLayer.cpp; path = Classes/MenuLayer.cpp; sourceTree = "<group>"; };
+		D6BC46CE185EDBF400C97FB6 /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuLayer.h; path = Classes/MenuLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -965,7 +963,6 @@
 				D68BF763184F2ED900C8755A /* Default.png */,
 				D68BF765184F2ED900C8755A /* HelloWorld.png */,
 				D68BF76F184F2ED900C8755A /* Icon.png */,
-				D68BF771184F2ED900C8755A /* Icon@2x.png */,
 				D68BF773184F2ED900C8755A /* iTunesArtwork */,
 				D68BF775184F2ED900C8755A /* Info.plist */,
 			);
@@ -2105,14 +2102,14 @@
 		D68BFAEE184F2EDE00C8755A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D6BC46CB185EDBF400C97FB6 /* HeaderLayer.cpp */,
+				D6BC46CC185EDBF400C97FB6 /* HeaderLayer.h */,
+				D6BC46CD185EDBF400C97FB6 /* MenuLayer.cpp */,
+				D6BC46CE185EDBF400C97FB6 /* MenuLayer.h */,
 				D68BFAF0184F2EDE00C8755A /* AppDelegate.cpp */,
 				D68BFAEF184F2EDE00C8755A /* AppDelegate.h */,
-				D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */,
-				D662FEB6185AAD76003105E3 /* HeaderLayer.h */,
 				D68BFB02184F2FBA00C8755A /* MainMenu.cpp */,
 				D68BFB03184F2FBA00C8755A /* MainMenu.h */,
-				D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */,
-				D662FEB9185AB0E2003105E3 /* MenuLayer.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2173,7 +2170,6 @@
 				D68BF766184F2ED900C8755A /* HelloWorld.png in Resources */,
 				D662FEBE185AB62D003105E3 /* Menus.ccbi in Resources */,
 				D68BF770184F2ED900C8755A /* Icon.png in Resources */,
-				D68BF772184F2ED900C8755A /* Icon@2x.png in Resources */,
 				D68BF774184F2ED900C8755A /* iTunesArtwork in Resources */,
 				D68BF813184F2EDA00C8755A /* ChangeLog in Resources */,
 				D68BF987184F2EDD00C8755A /* project.pbxproj in Resources */,
@@ -2209,7 +2205,6 @@
 				D68BF7A4184F2ED900C8755A /* CCActionTiledGrid.cpp in Sources */,
 				D68BF7A7184F2ED900C8755A /* CCActionTween.cpp in Sources */,
 				D68BF7AB184F2ED900C8755A /* CCAtlasNode.cpp in Sources */,
-				D662FEB7185AAD76003105E3 /* HeaderLayer.cpp in Sources */,
 				D68BF7AE184F2ED900C8755A /* CCNode.cpp in Sources */,
 				D68BF7B1184F2ED900C8755A /* CCCamera.cpp in Sources */,
 				D68BF7B4184F2ED900C8755A /* CCConfiguration.cpp in Sources */,
@@ -2332,7 +2327,6 @@
 				D68BF97B184F2EDC00C8755A /* CDOpenALSupport.m in Sources */,
 				D68BF97E184F2EDD00C8755A /* CocosDenshion.m in Sources */,
 				D68BF980184F2EDD00C8755A /* SimpleAudioEngine.mm in Sources */,
-				D662FEBA185AB0E2003105E3 /* MenuLayer.cpp in Sources */,
 				D68BF983184F2EDD00C8755A /* SimpleAudioEngine_objc.m in Sources */,
 				D68BF98B184F2EDD00C8755A /* AssetsManager.cpp in Sources */,
 				D68BF98F184F2EDD00C8755A /* CCBAnimationManager.cpp in Sources */,
@@ -2386,6 +2380,7 @@
 				D68BFA2B184F2EDD00C8755A /* CCTableView.cpp in Sources */,
 				D68BFA2E184F2EDD00C8755A /* CCTableViewCell.cpp in Sources */,
 				D68BFA32184F2EDD00C8755A /* LocalStorage.cpp in Sources */,
+				D6BC46CF185EDBF400C97FB6 /* HeaderLayer.cpp in Sources */,
 				D68BFA35184F2EDD00C8755A /* LocalStorageAndroid.cpp in Sources */,
 				D68BFA38184F2EDD00C8755A /* HttpClient.cpp in Sources */,
 				D68BFA3D184F2EDD00C8755A /* WebSocket.cpp in Sources */,
@@ -2423,6 +2418,7 @@
 				D68BFABB184F2EDE00C8755A /* cpRatchetJoint.c in Sources */,
 				D68BFABD184F2EDE00C8755A /* cpRotaryLimitJoint.c in Sources */,
 				D68BFABF184F2EDE00C8755A /* cpSimpleMotor.c in Sources */,
+				D6BC46D0185EDBF400C97FB6 /* MenuLayer.cpp in Sources */,
 				D68BFAC1184F2EDE00C8755A /* cpSlideJoint.c in Sources */,
 				D68BFAC3184F2EDE00C8755A /* cpArbiter.c in Sources */,
 				D68BFAC5184F2EDE00C8755A /* cpArray.c in Sources */,

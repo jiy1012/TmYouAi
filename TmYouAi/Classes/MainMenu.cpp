@@ -112,7 +112,7 @@ void MainMenu::openTest(const char * pCCBFileName, const char * pCCNodeName, coc
     
     CCNodeLoaderLibrary *lib = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
     
-    lib->registerCCNodeLoader("Header.ccbi", HeaderLayerLoader::loader());
+//    lib->registerCCNodeLoader("Header.ccbi", HeaderLayerLoader::loader());
     lib->registerCCNodeLoader(pCCNodeName, pCCNodeLoader);
     
     CCBReader *reader = new CCBReader(lib);
