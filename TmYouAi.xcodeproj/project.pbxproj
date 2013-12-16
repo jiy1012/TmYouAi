@@ -23,10 +23,6 @@
 		D68BF762184F2ED900C8755A /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF761184F2ED900C8755A /* CloseSelected.png */; };
 		D68BF764184F2ED900C8755A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF763184F2ED900C8755A /* Default.png */; };
 		D68BF766184F2ED900C8755A /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF765184F2ED900C8755A /* HelloWorld.png */; };
-		D68BF768184F2ED900C8755A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF767184F2ED900C8755A /* Icon-72.png */; };
-		D68BF76A184F2ED900C8755A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF769184F2ED900C8755A /* Icon-Small-50.png */; };
-		D68BF76C184F2ED900C8755A /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF76B184F2ED900C8755A /* Icon-Small.png */; };
-		D68BF76E184F2ED900C8755A /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF76D184F2ED900C8755A /* Icon-Small@2x.png */; };
 		D68BF770184F2ED900C8755A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF76F184F2ED900C8755A /* Icon.png */; };
 		D68BF772184F2ED900C8755A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BF771184F2ED900C8755A /* Icon@2x.png */; };
 		D68BF774184F2ED900C8755A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D68BF773184F2ED900C8755A /* iTunesArtwork */; };
@@ -283,7 +279,6 @@
 		D68BFAE3184F2EDE00C8755A /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = D68BFAE2184F2EDE00C8755A /* cpVect.c */; };
 		D68BFAEB184F2EDE00C8755A /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68BFAEA184F2EDE00C8755A /* libwebsockets.a */; };
 		D68BFAF1184F2EDE00C8755A /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BFAF0184F2EDE00C8755A /* AppDelegate.cpp */; };
-		D68BFAF4184F2EDE00C8755A /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BFAF3184F2EDE00C8755A /* HelloWorldScene.cpp */; };
 		D68BFAFE184F2FA700C8755A /* BAK.png in Resources */ = {isa = PBXBuildFile; fileRef = D68BFAFA184F2FA700C8755A /* BAK.png */; };
 		D68BFAFF184F2FA700C8755A /* MainMenu.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D68BFAFB184F2FA700C8755A /* MainMenu.ccbi */; };
 		D68BFB00184F2FA700C8755A /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D68BFAFC184F2FA700C8755A /* MainScene.ccbi */; };
@@ -311,10 +306,6 @@
 		D68BF761184F2ED900C8755A /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseSelected.png; path = Resources/CloseSelected.png; sourceTree = "<group>"; };
 		D68BF763184F2ED900C8755A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		D68BF765184F2ED900C8755A /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HelloWorld.png; path = Resources/HelloWorld.png; sourceTree = "<group>"; };
-		D68BF767184F2ED900C8755A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/Icon-72.png"; sourceTree = "<group>"; };
-		D68BF769184F2ED900C8755A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		D68BF76B184F2ED900C8755A /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		D68BF76D184F2ED900C8755A /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		D68BF76F184F2ED900C8755A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
 		D68BF771184F2ED900C8755A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/Icon@2x.png"; sourceTree = "<group>"; };
 		D68BF773184F2ED900C8755A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Resources/iTunesArtwork; sourceTree = "<group>"; };
@@ -886,8 +877,6 @@
 		D68BFAED184F2EDE00C8755A /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		D68BFAEF184F2EDE00C8755A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		D68BFAF0184F2EDE00C8755A /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		D68BFAF2184F2EDE00C8755A /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		D68BFAF3184F2EDE00C8755A /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		D68BFAFA184F2FA700C8755A /* BAK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BAK.png; path = Resources/BAK.png; sourceTree = "<group>"; };
 		D68BFAFB184F2FA700C8755A /* MainMenu.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = MainMenu.ccbi; path = Resources/MainMenu.ccbi; sourceTree = "<group>"; };
 		D68BFAFC184F2FA700C8755A /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = MainScene.ccbi; path = Resources/MainScene.ccbi; sourceTree = "<group>"; };
@@ -975,10 +964,6 @@
 				D68BF761184F2ED900C8755A /* CloseSelected.png */,
 				D68BF763184F2ED900C8755A /* Default.png */,
 				D68BF765184F2ED900C8755A /* HelloWorld.png */,
-				D68BF767184F2ED900C8755A /* Icon-72.png */,
-				D68BF769184F2ED900C8755A /* Icon-Small-50.png */,
-				D68BF76B184F2ED900C8755A /* Icon-Small.png */,
-				D68BF76D184F2ED900C8755A /* Icon-Small@2x.png */,
 				D68BF76F184F2ED900C8755A /* Icon.png */,
 				D68BF771184F2ED900C8755A /* Icon@2x.png */,
 				D68BF773184F2ED900C8755A /* iTunesArtwork */,
@@ -2124,8 +2109,6 @@
 				D68BFAEF184F2EDE00C8755A /* AppDelegate.h */,
 				D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */,
 				D662FEB6185AAD76003105E3 /* HeaderLayer.h */,
-				D68BFAF3184F2EDE00C8755A /* HelloWorldScene.cpp */,
-				D68BFAF2184F2EDE00C8755A /* HelloWorldScene.h */,
 				D68BFB02184F2FBA00C8755A /* MainMenu.cpp */,
 				D68BFB03184F2FBA00C8755A /* MainMenu.h */,
 				D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */,
@@ -2188,11 +2171,7 @@
 				D68BF762184F2ED900C8755A /* CloseSelected.png in Resources */,
 				D68BF764184F2ED900C8755A /* Default.png in Resources */,
 				D68BF766184F2ED900C8755A /* HelloWorld.png in Resources */,
-				D68BF768184F2ED900C8755A /* Icon-72.png in Resources */,
-				D68BF76A184F2ED900C8755A /* Icon-Small-50.png in Resources */,
-				D68BF76C184F2ED900C8755A /* Icon-Small.png in Resources */,
 				D662FEBE185AB62D003105E3 /* Menus.ccbi in Resources */,
-				D68BF76E184F2ED900C8755A /* Icon-Small@2x.png in Resources */,
 				D68BF770184F2ED900C8755A /* Icon.png in Resources */,
 				D68BF772184F2ED900C8755A /* Icon@2x.png in Resources */,
 				D68BF774184F2ED900C8755A /* iTunesArtwork in Resources */,
@@ -2463,7 +2442,6 @@
 				D68BFAE1184F2EDE00C8755A /* cpSweep1D.c in Sources */,
 				D68BFAE3184F2EDE00C8755A /* cpVect.c in Sources */,
 				D68BFAF1184F2EDE00C8755A /* AppDelegate.cpp in Sources */,
-				D68BFAF4184F2EDE00C8755A /* HelloWorldScene.cpp in Sources */,
 				D68BFB04184F2FBA00C8755A /* MainMenu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
