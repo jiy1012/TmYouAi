@@ -40,23 +40,19 @@ public:
     ////节点读取完成时附加操作
     virtual void onNodeLoaded(CCNode * pNode, CCNodeLoader * pNodeLoader);
     
-    void onControl1Click(CCObject *pSender, CCControlEvent pCCControlEvent);
-    void onControl2Click(CCObject *pSender, CCControlEvent pCCControlEvent);
-    void onControl3Click(CCObject *pSender, CCControlEvent pCCControlEvent);
-    
+    void onMainMenuControl1Click(CCObject *pSender, CCControlEvent pCCControlEvent);
+    void onMainMenuControl2Click(CCObject *pSender, CCControlEvent pCCControlEvent);
+    void onMainMenuControl3Click(CCObject *pSender, CCControlEvent pCCControlEvent);
+
+    void openTest(const char * pCCBFileName, const char * pCCNodeName = NULL, cocos2d::extension::CCNodeLoader * pCCNodeLoader = NULL);
+
 private:
-    CCLabelTTF *m_lable1;
-    CCLabelTTF *m_lable2;
-    CCLabelTTF *m_lable3;
-    CCLabelTTF *m_lable4;
-    CCLabelTTF *m_lable5;
-    CCLabelTTF *m_lable6;
-    CCLabelTTF *m_lable7;
-    CCLabelTTF *m_lable8;
-    CCControlButton *m_control1;
-    CCControlButton *m_control2;
-    CCControlButton *m_control3;
-    int m_title;
+    CCLabelTTF *m_lable[16];
+    CCControlButton *m_mainMenuControl1;
+    CCControlButton *m_mainMenuControl2;
+    CCControlButton *m_mainMenuControl3;
+    
+    static std::string m_titleString[16];
 };
 
 

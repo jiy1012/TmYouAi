@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D662FEB7185AAD76003105E3 /* HeaderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */; };
+		D662FEBA185AB0E2003105E3 /* MenuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */; };
+		D662FEBD185AB62D003105E3 /* Header.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D662FEBB185AB62D003105E3 /* Header.ccbi */; };
+		D662FEBE185AB62D003105E3 /* Menus.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D662FEBC185AB62D003105E3 /* Menus.ccbi */; };
 		D68BF74E184F2ED900C8755A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68BF74D184F2ED900C8755A /* QuartzCore.framework */; };
 		D68BF750184F2ED900C8755A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68BF74F184F2ED900C8755A /* OpenGLES.framework */; };
 		D68BF752184F2ED900C8755A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68BF751184F2ED900C8755A /* OpenAL.framework */; };
@@ -288,6 +292,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeaderLayer.cpp; sourceTree = "<group>"; };
+		D662FEB6185AAD76003105E3 /* HeaderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderLayer.h; sourceTree = "<group>"; };
+		D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuLayer.cpp; sourceTree = "<group>"; };
+		D662FEB9185AB0E2003105E3 /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLayer.h; sourceTree = "<group>"; };
+		D662FEBB185AB62D003105E3 /* Header.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Header.ccbi; path = Resources/Header.ccbi; sourceTree = "<group>"; };
+		D662FEBC185AB62D003105E3 /* Menus.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = Menus.ccbi; path = Resources/Menus.ccbi; sourceTree = "<group>"; };
 		D68BF74A184F2ED900C8755A /* TmYouAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TmYouAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68BF74D184F2ED900C8755A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D68BF74F184F2ED900C8755A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -955,6 +965,8 @@
 		D68BF75E184F2ED900C8755A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D662FEBB185AB62D003105E3 /* Header.ccbi */,
+				D662FEBC185AB62D003105E3 /* Menus.ccbi */,
 				D68BFAFA184F2FA700C8755A /* BAK.png */,
 				D68BFAFB184F2FA700C8755A /* MainMenu.ccbi */,
 				D68BFAFC184F2FA700C8755A /* MainScene.ccbi */,
@@ -2108,12 +2120,16 @@
 		D68BFAEE184F2EDE00C8755A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D68BFAF0184F2EDE00C8755A /* AppDelegate.cpp */,
+				D68BFAEF184F2EDE00C8755A /* AppDelegate.h */,
+				D662FEB5185AAD76003105E3 /* HeaderLayer.cpp */,
+				D662FEB6185AAD76003105E3 /* HeaderLayer.h */,
+				D68BFAF3184F2EDE00C8755A /* HelloWorldScene.cpp */,
+				D68BFAF2184F2EDE00C8755A /* HelloWorldScene.h */,
 				D68BFB02184F2FBA00C8755A /* MainMenu.cpp */,
 				D68BFB03184F2FBA00C8755A /* MainMenu.h */,
-				D68BFAEF184F2EDE00C8755A /* AppDelegate.h */,
-				D68BFAF0184F2EDE00C8755A /* AppDelegate.cpp */,
-				D68BFAF2184F2EDE00C8755A /* HelloWorldScene.h */,
-				D68BFAF3184F2EDE00C8755A /* HelloWorldScene.cpp */,
+				D662FEB8185AB0E2003105E3 /* MenuLayer.cpp */,
+				D662FEB9185AB0E2003105E3 /* MenuLayer.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2175,6 +2191,7 @@
 				D68BF768184F2ED900C8755A /* Icon-72.png in Resources */,
 				D68BF76A184F2ED900C8755A /* Icon-Small-50.png in Resources */,
 				D68BF76C184F2ED900C8755A /* Icon-Small.png in Resources */,
+				D662FEBE185AB62D003105E3 /* Menus.ccbi in Resources */,
 				D68BF76E184F2ED900C8755A /* Icon-Small@2x.png in Resources */,
 				D68BF770184F2ED900C8755A /* Icon.png in Resources */,
 				D68BF772184F2ED900C8755A /* Icon@2x.png in Resources */,
@@ -2185,6 +2202,7 @@
 				D68BFAFF184F2FA700C8755A /* MainMenu.ccbi in Resources */,
 				D68BFB00184F2FA700C8755A /* MainScene.ccbi in Resources */,
 				D68BFB01184F2FA700C8755A /* START.png in Resources */,
+				D662FEBD185AB62D003105E3 /* Header.ccbi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2212,6 +2230,7 @@
 				D68BF7A4184F2ED900C8755A /* CCActionTiledGrid.cpp in Sources */,
 				D68BF7A7184F2ED900C8755A /* CCActionTween.cpp in Sources */,
 				D68BF7AB184F2ED900C8755A /* CCAtlasNode.cpp in Sources */,
+				D662FEB7185AAD76003105E3 /* HeaderLayer.cpp in Sources */,
 				D68BF7AE184F2ED900C8755A /* CCNode.cpp in Sources */,
 				D68BF7B1184F2ED900C8755A /* CCCamera.cpp in Sources */,
 				D68BF7B4184F2ED900C8755A /* CCConfiguration.cpp in Sources */,
@@ -2334,6 +2353,7 @@
 				D68BF97B184F2EDC00C8755A /* CDOpenALSupport.m in Sources */,
 				D68BF97E184F2EDD00C8755A /* CocosDenshion.m in Sources */,
 				D68BF980184F2EDD00C8755A /* SimpleAudioEngine.mm in Sources */,
+				D662FEBA185AB0E2003105E3 /* MenuLayer.cpp in Sources */,
 				D68BF983184F2EDD00C8755A /* SimpleAudioEngine_objc.m in Sources */,
 				D68BF98B184F2EDD00C8755A /* AssetsManager.cpp in Sources */,
 				D68BF98F184F2EDD00C8755A /* CCBAnimationManager.cpp in Sources */,
@@ -2586,6 +2606,7 @@
 				D68BFAF9184F2EDE00C8755A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

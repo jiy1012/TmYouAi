@@ -27,11 +27,11 @@
 	<key>needRepublish</key>
 	<false/>
 	<key>onlyPublishCCBs</key>
-	<false/>
+	<true/>
 	<key>publishDirectory</key>
 	<string>Published-iOS</string>
 	<key>publishDirectoryAndroid</key>
-	<string>../ccbi</string>
+	<string>../Resources</string>
 	<key>publishDirectoryHTML5</key>
 	<string>Published-HTML5</string>
 	<key>publishEnabledAndroid</key>
