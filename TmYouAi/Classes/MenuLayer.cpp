@@ -7,6 +7,8 @@
 //
 
 #include "MenuLayer.h"
+#include "XmlConfig.h"
+#include "Struct/TMHeroStruct.h"
 
 MenuLayer::MenuLayer()
 : m_menuControl1(NULL)
@@ -40,6 +42,7 @@ SEL_MenuHandler MenuLayer::onResolveCCBCCMenuItemSelector(cocos2d::CCObject *pTa
 void MenuLayer::onNodeLoaded(CCNode * pNode, CCNodeLoader * pNodeLoader)
 {
     CCLOG("%s","MenuLayer all loaded");
+//    MAPITEMS XmlConfig::shared()->
     
 }
 
@@ -69,5 +72,26 @@ void MenuLayer::onMenusControl2Click(cocos2d::CCObject *pSender)
 
 void MenuLayer::onMenusControl3Click(cocos2d::CCObject *pSender)
 {
+    
     CCLOG("MenuLayer::onMenusControl3Click %s"," ");
+//    CCDictionary* heroes = XmlConfig::XmlManager()->getGroupByKey("Heroes");
+//    CCDictElement* hero = NULL;
+//    CCDICT_FOREACH(heroes, hero)
+//    {
+//        CCLOG("%s","ok");
+//        std::string key = hero->getStrKey();
+//        CCLOG("%s",key.c_str());
+//    }
+
+//    CCDictionary * pGroupDict = XmlConfig::XmlManager()->getGroupByKey("Hero");
+//    CCArray* arr = pGroupDict->allKeys();
+//    CCObject *obj=NULL;
+//
+//    CCARRAY_FOREACH(arr,obj){
+//        CCString  *s=(CCString*)obj;
+//        CCDictionary * pDictItem = (CCDictionary *)pGroupDict->objectForKey(s->m_sString.c_str());
+//        TMHeroStruct * m_HeroBase = new TMHeroStruct;
+//        m_HeroBase->setData(pDictItem);
+//        CCLOG("%d:%s:%d:%d:%d",m_HeroBase->heroid,m_HeroBase->name.c_str(),m_HeroBase->attack,m_HeroBase->defense,m_HeroBase->crit);
+//    }
 }

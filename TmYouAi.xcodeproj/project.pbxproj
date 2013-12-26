@@ -283,6 +283,12 @@
 		D68BFB04184F2FBA00C8755A /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D68BFB02184F2FBA00C8755A /* MainMenu.cpp */; };
 		D6BC46CF185EDBF400C97FB6 /* HeaderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46CB185EDBF400C97FB6 /* HeaderLayer.cpp */; };
 		D6BC46D0185EDBF400C97FB6 /* MenuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46CD185EDBF400C97FB6 /* MenuLayer.cpp */; };
+		D6BC46D3185EE0CB00C97FB6 /* XmlConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46D1185EE0CB00C97FB6 /* XmlConfig.cpp */; };
+		D6BC46D7185F2B9600C97FB6 /* database.local.xml in Resources */ = {isa = PBXBuildFile; fileRef = D6BC46D4185F2B9600C97FB6 /* database.local.xml */; };
+		D6BC46D8185F2B9600C97FB6 /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6BC46D5185F2B9600C97FB6 /* fileLookup.plist */; };
+		D6BC46D9185F2B9600C97FB6 /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BC46D6185F2B9600C97FB6 /* hide.png */; };
+		D6BC46DE185F3AFC00C97FB6 /* CCXMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46DC185F3AFC00C97FB6 /* CCXMLParser.cpp */; };
+		D6BC46EA186023B500C97FB6 /* TMHeroStruct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6BC46E8186023B500C97FB6 /* TMHeroStruct.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -881,6 +887,16 @@
 		D6BC46CC185EDBF400C97FB6 /* HeaderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderLayer.h; path = Classes/HeaderLayer.h; sourceTree = "<group>"; };
 		D6BC46CD185EDBF400C97FB6 /* MenuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuLayer.cpp; path = Classes/MenuLayer.cpp; sourceTree = "<group>"; };
 		D6BC46CE185EDBF400C97FB6 /* MenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuLayer.h; path = Classes/MenuLayer.h; sourceTree = "<group>"; };
+		D6BC46D1185EE0CB00C97FB6 /* XmlConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XmlConfig.cpp; path = Classes/XmlConfig.cpp; sourceTree = "<group>"; };
+		D6BC46D2185EE0CB00C97FB6 /* XmlConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XmlConfig.h; path = Classes/XmlConfig.h; sourceTree = "<group>"; };
+		D6BC46D4185F2B9600C97FB6 /* database.local.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = database.local.xml; path = Resources/database.local.xml; sourceTree = "<group>"; };
+		D6BC46D5185F2B9600C97FB6 /* fileLookup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = fileLookup.plist; path = Resources/fileLookup.plist; sourceTree = "<group>"; };
+		D6BC46D6185F2B9600C97FB6 /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hide.png; path = Resources/hide.png; sourceTree = "<group>"; };
+		D6BC46DC185F3AFC00C97FB6 /* CCXMLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCXMLParser.cpp; path = Classes/CCXMLParser.cpp; sourceTree = "<group>"; };
+		D6BC46DD185F3AFC00C97FB6 /* CCXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCXMLParser.h; path = Classes/CCXMLParser.h; sourceTree = "<group>"; };
+		D6BC46E8186023B500C97FB6 /* TMHeroStruct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TMHeroStruct.cpp; path = Classes/Struct/TMHeroStruct.cpp; sourceTree = "<group>"; };
+		D6BC46E9186023B500C97FB6 /* TMHeroStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMHeroStruct.h; path = Classes/Struct/TMHeroStruct.h; sourceTree = "<group>"; };
+		D6BC46EB18602EBD00C97FB6 /* TMDefined.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TMDefined.h; path = Classes/TMDefined.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -952,6 +968,9 @@
 		D68BF75E184F2ED900C8755A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D6BC46D4185F2B9600C97FB6 /* database.local.xml */,
+				D6BC46D5185F2B9600C97FB6 /* fileLookup.plist */,
+				D6BC46D6185F2B9600C97FB6 /* hide.png */,
 				D662FEBB185AB62D003105E3 /* Header.ccbi */,
 				D662FEBC185AB62D003105E3 /* Menus.ccbi */,
 				D68BFAFA184F2FA700C8755A /* BAK.png */,
@@ -2102,6 +2121,9 @@
 		D68BFAEE184F2EDE00C8755A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D6BC46E71860230900C97FB6 /* Struct */,
+				D6BC46DC185F3AFC00C97FB6 /* CCXMLParser.cpp */,
+				D6BC46DD185F3AFC00C97FB6 /* CCXMLParser.h */,
 				D6BC46CB185EDBF400C97FB6 /* HeaderLayer.cpp */,
 				D6BC46CC185EDBF400C97FB6 /* HeaderLayer.h */,
 				D6BC46CD185EDBF400C97FB6 /* MenuLayer.cpp */,
@@ -2110,8 +2132,20 @@
 				D68BFAEF184F2EDE00C8755A /* AppDelegate.h */,
 				D68BFB02184F2FBA00C8755A /* MainMenu.cpp */,
 				D68BFB03184F2FBA00C8755A /* MainMenu.h */,
+				D6BC46D1185EE0CB00C97FB6 /* XmlConfig.cpp */,
+				D6BC46D2185EE0CB00C97FB6 /* XmlConfig.h */,
+				D6BC46EB18602EBD00C97FB6 /* TMDefined.h */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		D6BC46E71860230900C97FB6 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				D6BC46E8186023B500C97FB6 /* TMHeroStruct.cpp */,
+				D6BC46E9186023B500C97FB6 /* TMHeroStruct.h */,
+			);
+			name = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2168,8 +2202,11 @@
 				D68BF762184F2ED900C8755A /* CloseSelected.png in Resources */,
 				D68BF764184F2ED900C8755A /* Default.png in Resources */,
 				D68BF766184F2ED900C8755A /* HelloWorld.png in Resources */,
+				D6BC46D9185F2B9600C97FB6 /* hide.png in Resources */,
+				D6BC46D8185F2B9600C97FB6 /* fileLookup.plist in Resources */,
 				D662FEBE185AB62D003105E3 /* Menus.ccbi in Resources */,
 				D68BF770184F2ED900C8755A /* Icon.png in Resources */,
+				D6BC46D7185F2B9600C97FB6 /* database.local.xml in Resources */,
 				D68BF774184F2ED900C8755A /* iTunesArtwork in Resources */,
 				D68BF813184F2EDA00C8755A /* ChangeLog in Resources */,
 				D68BF987184F2EDD00C8755A /* project.pbxproj in Resources */,
@@ -2303,6 +2340,7 @@
 				D68BF923184F2EDC00C8755A /* TGAlib.cpp in Sources */,
 				D68BF927184F2EDC00C8755A /* tinyxml2.cpp in Sources */,
 				D68BF92A184F2EDC00C8755A /* TransformUtils.cpp in Sources */,
+				D6BC46EA186023B500C97FB6 /* TMHeroStruct.cpp in Sources */,
 				D68BF92F184F2EDC00C8755A /* CCUserDefault.mm in Sources */,
 				D68BF932184F2EDC00C8755A /* ioapi.cpp in Sources */,
 				D68BF935184F2EDC00C8755A /* unzip.cpp in Sources */,
@@ -2378,6 +2416,7 @@
 				D68BFA25184F2EDD00C8755A /* CCScrollView.cpp in Sources */,
 				D68BFA28184F2EDD00C8755A /* CCSorting.cpp in Sources */,
 				D68BFA2B184F2EDD00C8755A /* CCTableView.cpp in Sources */,
+				D6BC46DE185F3AFC00C97FB6 /* CCXMLParser.cpp in Sources */,
 				D68BFA2E184F2EDD00C8755A /* CCTableViewCell.cpp in Sources */,
 				D68BFA32184F2EDD00C8755A /* LocalStorage.cpp in Sources */,
 				D6BC46CF185EDBF400C97FB6 /* HeaderLayer.cpp in Sources */,
@@ -2397,6 +2436,7 @@
 				D68BFA60184F2EDE00C8755A /* BoneData.cpp in Sources */,
 				D68BFA63184F2EDE00C8755A /* CCSkeleton.cpp in Sources */,
 				D68BFA66184F2EDE00C8755A /* CCSkeletonAnimation.cpp in Sources */,
+				D6BC46D3185EE0CB00C97FB6 /* XmlConfig.cpp in Sources */,
 				D68BFA69184F2EDE00C8755A /* extension.cpp in Sources */,
 				D68BFA6C184F2EDE00C8755A /* Json.cpp in Sources */,
 				D68BFA6F184F2EDE00C8755A /* RegionAttachment.cpp in Sources */,

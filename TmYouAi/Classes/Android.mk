@@ -5,9 +5,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := game_logic_static
 
 LOCAL_SRC_FILES := AppDelegate.cpp \
-                   MainMenu.cpp \
-                   MenuLayer.cpp \
-                   HeaderLayer.cpp
+                   MainMenu.cpp 
 
                    
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../libs/cocos2dx \

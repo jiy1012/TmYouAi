@@ -8,8 +8,13 @@ LOCAL_MODULE_FILENAME := libgame
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/AppDelegate.cpp \
-                   ../../Classes/HelloWorldScene.cpp \
-                   ../../Classes/MainMenu.cpp
+                   ../../Classes/MainMenu.cpp \
+                   ../../Classes/Struct/TMHeroStruct.cpp \
+                   ../../Classes/MenuLayer.cpp \
+                   ../../Classes/HeaderLayer.cpp \
+                   ../../Classes/XmlConfig.cpp \
+                   ../../Classes/CCXMLParser.cpp 
+                   
                    
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes                   
 
